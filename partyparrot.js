@@ -17,3 +17,12 @@
 //water sell for $6, and cost $0.15 to make
 
 //print out the total profit for the orders you have
+
+fucntion profit(ppCocktail, ppWater, ppBeer) {
+    let cocktail = ppCocktail * 3 * 22
+    let beer = ppBeer * 6 * 12 
+    let water = ppWater * 2 * 6
+    cocktail -= cocktail 
+    beer -=
+    water -=
+}
