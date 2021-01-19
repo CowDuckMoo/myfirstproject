@@ -5,5 +5,5 @@
 // NB: double check that the sku values are showing as strings properly :)
 
 function duplicateRemove(num) {
-    num.split('').
+    num.split('').filter(dups => dups.match(/[0-9]{x?}/)).join('');
 }
